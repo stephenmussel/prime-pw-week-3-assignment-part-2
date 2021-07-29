@@ -12,12 +12,14 @@ for (let i=0; i<4; i++) {
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5
 //   - Which part of the example loop do you need to change to do this?
+// ANSWER: change i<4 to i<6
 for (let i=0; i<6; i++) {
   console.log('count from 0 to 5', i);
 }
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
+// ANSWER: change i=0 to i=3
 for (let i=3; i<6; i++) {
   console.log('count from 3 to 5', i);
 }
@@ -26,13 +28,13 @@ for (let i=3; i<6; i++) {
 //   - Which part of the example loop do you need to change to do this?
 /* for some reason, this was the first solution i came up with. my mind just went to an if statement no remainder. i think the intended solution is below.
 for (let i=2; i < 11; i++) {
-  if (i % 2 === 0) {
+  if (i % 2 === 0) { // no remainder
     console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):', i);
   }
 }
 */
-
-for (let i=2; i < 11; i += 2){
+// ANSWER: change i=0 to i=2 (this starts i at 2), i<6 to i<11 (this tells i when to stop) i++ to i += 2 (this adds 2 to i)
+for (let i=2; i<11; i += 2){
   console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):', i);
 }
 
