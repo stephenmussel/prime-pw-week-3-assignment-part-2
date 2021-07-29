@@ -64,7 +64,7 @@ i++;
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 let numbers = 0;
-while ( numbers < 6) {
+while (numbers < 6) {
 console.log('count from 0 to 5', numbers);
 numbers++;
 }
