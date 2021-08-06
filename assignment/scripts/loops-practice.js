@@ -48,7 +48,7 @@ console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
-for (each of stars) {
+for (let each of stars) { // Added let based on feedback to declare
   console.log('Some stars:', each);
 }
 
@@ -56,23 +56,23 @@ for (each of stars) {
 console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
-let i = 0;
-while (i < stars.length) {
-console.log('Some stars using while:', stars[i]);
-i++;
+let i = 0; // starts at 0
+while (i < stars.length) { // runs code in {} until end of array
+console.log('Some stars using while:', stars[i]); // logs each star
+i++; // increments i by 1. can also be written as i += 1. IMPORTANT: if this isn't included, loop doesn't stop!
 }
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
-let numbers = 0;
-while (numbers < 6) {
-console.log('count from 0 to 5', numbers);
-numbers++;
+let numbers = 0; // starts at 0
+while (numbers < 6) { // runs code in {} until unitl 6
+console.log('count from 0 to 5', numbers); // logs numbers
+numbers++; // increments numbers by 1. can also be written numbers += 1. IMPORTANT: if this isn't included, loop doesn't stop!
 }
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
-let max = 10;
-let min = 4;
-while( max > min) {
+let max = 10; // start
+let min = 4; // end
+while( max > min) { // runs code in {} until 4
 console.log('count backwards from 10 to 5', max);
-max--;
+max--; // decrements max by 1. can also be written numbers -= 1. IMPORTANT: if this isn't included, loop doesn't stop!
 }
